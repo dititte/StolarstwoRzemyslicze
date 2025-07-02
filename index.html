@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stolarstwo Rzemieślnicze - Niestandardowe Kuchnie i Szafy</title>
+    <meta name="description" content="Profesjonalne usługi stolarskie specjalizujące się w niestandardowych kuchniach i szafach na wymiar. Przekształć swoją przestrzeń dzięki precyzyjnemu rzemiosłu.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-hammer"></i>
+                    <span>Stolarstwo Rzemieślnicze</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Strona Główna</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#services" class="nav-link">Usługi</a></li>
+                    <li><a href="#about" class="nav-link">O Nas</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+                <div class="phone-number">
+                    <i class="fas fa-phone"></i>
+                    <span>(555) 123-4567</span>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Tworzenie Niestandardowych Kuchni i Szaf z Precyzją</h1>
+            <p class="hero-subtitle">Przekształć swoją przestrzeń dzięki niestandardowym rozwiązaniom stolarskim, które łączą funkcjonalność z ponadczasową elegancją</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-label">Lat Doświadczenia</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="200">0</span>
+                    <span class="stat-label">Zrealizowanych Projektów</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span class="stat-label">% Satysfakcji</span>
+                </div>
+            </div>
+            <a href="#portfolio" class="cta-button">Zobacz Nasze Prace</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/kitchen1.jpg" alt="Prezentacja niestandardowej kuchni">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nasze Specjalizacje</h2>
+            <p class="section-subtitle">Tworzymy niestandardowe rozwiązania dostosowane do Twoich unikalnych potrzeb i przestrzeni</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Niestandardowe Kuchnie</h3>
+                    <p>Od nowoczesnego minimalizmu po tradycyjny styl wiejski, tworzymy kuchnie, które są sercem Twojego domu. Każda szafka, blat i detal są projektowane zgodnie z Twoimi specyfikacjami.</p>
+                    <ul class="service-features">
+                        <li>Projektowanie szafek na wymiar</li>
+                        <li>Wybór materiałów premium</li>
+                        <li>Zintegrowane rozwiązania sprzętowe</li>
+                        <li>Zoptymalizowane systemy przechowywania</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Szafy na Wymiar</h3>
+                    <p>Maksymalizuj swoją przestrzeń do przechowywania dzięki niestandardowym szafom, które idealnie pasują do Twojej przestrzeni. Od garderób po zabudowy, tworzymy zorganizowany luksus.</p>
+                    <ul class="service-features">
+                        <li>Projektowanie garderób</li>
+                        <li>Systemy szaf w zabudowie</li>
+                        <li>Niestandardowe rozwiązania półek</li>
+                        <li>Mechanizmy drzwi przesuwnych</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Konsultacje Projektowe</h3>
+                    <p>Nasi eksperci projektanci współpracują z Tobą od koncepcji do realizacji, dbając o to, aby każdy detal odzwierciedlał Twoją wizję, jednocześnie maksymalizując funkcjonalność i styl.</p>
+                    <ul class="service-features">
+                        <li>Wizualizacja projektu 3D</li>
+                        <li>Optymalizacja przestrzeni</li>
+                        <li>Rekomendacje materiałowe</li>
+                        <li>Planowanie harmonogramu projektu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Nasze Portfolio</h2>
+            <p class="section-subtitle">Zapoznaj się z naszymi ostatnimi projektami, prezentującymi wyjątkowe rzemiosło</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Wszystkie Projekty</button>
+                <button class="filter-btn" data-filter="kitchens">Kuchnie</button>
+                <button class="filter-btn" data-filter="wardrobes">Szafy</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="kitchens">
+                    <img src="images/kitchen1.jpg" alt="Nowoczesna biała kuchnia z wyspą">
+                    <div class="portfolio-overlay">
+                        <h3>Nowoczesna Kuchnia Wiejska</h3>
+                        <p>Niestandardowe białe szafki z blatami kwarcowymi</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Beverly Hills</span>
+                            <span><i class="fas fa-calendar"></i> 6 tygodni</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="kitchens">
+                    <img src="images/kitchen2.jpg" alt="Tradycyjna drewniana kuchnia">
+                    <div class="portfolio-overlay">
+                        <h3>Tradycyjna Kuchnia Dębowa</h3>
+                        <p>Ręcznie wykonane dębowe szafki z granitowymi powierzchniami</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Manhattan</span>
+                            <span><i class="fas fa-calendar"></i> 8 tygodni</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="kitchens">
+                    <img src="images/kitchen3.jpg" alt="Współczesny projekt kuchni">
+                    <div class="portfolio-overlay">
+                        <h3>Współczesny Projekt</h3>
+                        <p>Eleganckie linie z zintegrowanymi urządzeniami</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Brooklyn</span>
+                            <span><i class="fas fa-calendar"></i> 5 tygodni</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wardrobes">
+                    <img src="images/wardrobe1.jpg" alt="Wbudowana szafa do sypialni">
+                    <div class="portfolio-overlay">
+                        <h3>Wbudowana Szafa do Sypialni</h3>
+                        <p>Przechowywanie od podłogi do sufitu z drzwiami przesuwnymi</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Queens</span>
+                            <span><i class="fas fa-calendar"></i> 3 tygodnie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wardrobes">
+                    <img src="images/wardrobe2.jpg" alt="Projekt garderoby">
+                    <div class="portfolio-overlay">
+                        <h3>Luksusowa Garderoba</h3>
+                        <p>Niestandardowe półki z wykończeniami premium</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Upper East Side</span>
+                            <span><i class="fas fa-calendar"></i> 4 tygodnie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wardrobes">
+                    <img src="images/wardrobe3.jpg" alt="Nowoczesne wnętrze szafy">
+                    <div class="portfolio-overlay">
+                        <h3>Nowoczesny System Szaf</h3>
+                        <p>Zorganizowane przechowywanie z oświetleniem LED</p>
+                        <div class="portfolio-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Tribeca</span>
+                            <span><i class="fas fa-calendar"></i> 3 tygodnie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Nasz Proces</h2>
+            <p class="section-subtitle">Od koncepcji do realizacji, prowadzimy Cię przez każdy etap</p>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Wstępna Konsultacja</h3>
+                        <p>Omawiamy Twoją wizję, wymagania i budżet, aby zrozumieć Twoje unikalne potrzeby.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Projektowanie i Planowanie</h3>
+                        <p>Nasi projektanci tworzą szczegółowe wizualizacje 3D i rysunki techniczne do Twojej akceptacji.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Wybór Materiałów</h3>
+                        <p>Wybierz spośród materiałów premium i wykończeń, które pasują do Twojego stylu i budżetu.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Wykonanie i Montaż</h3>
+                        <p>Nasi wykwalifikowani rzemieślnicy budują i instalują Twoje niestandardowe elementy z precyzją i starannością.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Końcowa Inspekcja</h3>
+                        <p>Zapewniamy, że każdy detal spełnia nasze wysokie standardy i Twoje pełne zadowolenie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Mistrzowskie Rzemiosło od 2008 Roku</h2>
+                    <p>W Stolarstwie Rzemieślniczym wierzymy, że wyjątkowe meble zaczynają się od wyjątkowego rzemiosła. Od ponad 15 lat tworzymy niestandardowe kuchnie i szafy, które przekształcają domy w prawdziwe domy.</p>
+                    <p>Nasz mistrz stolarstwa, James Mitchell, wnosi dziesięciolecia doświadczenia i niezachwiane zaangażowanie w jakość. Każdy element, który tworzymy, jest świadectwem tradycyjnych technik obróbki drewna połączonych z nowoczesnymi koncepcjami projektowymi.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Certyfikowany Mistrz Stolarstwa</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Materiały Zrównoważone</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Dożywotnia Gwarancja</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/kitchen2.jpg" alt="Mistrz stolarstwa przy pracy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Co Mówią Nasi Klienci</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Kuchnia, którą zaprojektował dla nas James, jest absolutnie oszałamiająca. Dbałość o szczegóły i jakość wykonania przerosły nasze oczekiwania. Nie mogliśmy być bardziej zadowoleni!"</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah & Michael Johnson</strong>
+                            <span>Projekt Niestandardowej Kuchni</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Nasza garderoba to spełnienie marzeń. System organizacji jest idealny, a jakość wyjątkowa. Gorąco polecam Stolarstwo Rzemieślnicze!"</p>
+                        <div class="testimonial-author">
+                            <strong>Emily Rodriguez</strong>
+                            <span>Projekt Garderoby</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Profesjonalni, niezawodni i niezwykle utalentowani. Cały proces przebiegł gładko, a końcowy rezultat jest poza pięknem. Warte każdej złotówki!"</p>
+                        <div class="testimonial-author">
+                            <strong>David Chen</strong>
+                            <span>Renowacja Kuchni</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Rozpocznij Swój Projekt Już Dziś</h2>
+            <p class="section-subtitle">Gotowy, aby przekształcić swoją przestrzeń? Skontaktuj się z nami, aby uzyskać bezpłatną konsultację</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@artisancarpentry.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Obszar Usług</h3>
+                            <p>Częstochowa i okolice</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Godziny</h3>
+                            <p>Pon-Pt: 8:00-18:00<br>Sob: 9:00-16:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Twoje Imię" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Twój Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Twój Telefon">
+                    </div>
+                    <div class="form-group">
+                        <select name="project-type" required>
+                            <option value="">Wybierz Typ Projektu</option>
+                            <option value="kitchen">Niestandardowa Kuchnia</option>
+                            <option value="wardrobe">Szafa na Wymiar</option>
+                            <option value="consultation">Konsultacja Projektowa</option>
+                            <option value="other">Inne</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Opowiedz nam o swoim projekcie..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Uzyskaj Bezpłatną Wycenę</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-hammer"></i>
+                        <span>Stolarstwo Rzemieślnicze</span>
+                    </div>
+                    <p>Tworzenie wyjątkowych niestandardowych kuchni i szaf z precyzją i pasją od 2008 roku.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Szybkie Linki</h3>
+                    <ul>
+                        <li><a href="#home">Strona Główna</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Usługi</a></li>
+                        <li><a href="#about">O Nas</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Usługi</h3>
+                    <ul>
+                        <li><a href="#services">Niestandardowe Kuchnie</a></li>
+                        <li><a href="#services">Szafy na Wymiar</a></li>
+                        <li><a href="#services">Konsultacje Projektowe</a></li>
+                        <li><a href="#services">Montaż</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Informacje Kontaktowe</h3>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@artisancarpentry.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Częstochowa i okolice</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Stolarstwo Rzemieślnicze. Wszelkie prawa zastrzeżone. | Polityka Prywatności | Warunki Usługi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
